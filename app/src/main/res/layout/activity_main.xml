@@ -1,18 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:custom="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.radomar.customview.circleMenu.TestViewGroup
-        android:layout_height="match_parent"
-        android:layout_width="wrap_content"
-        android:id="@+id/testViewGroup"
-        custom:radius="120dp"
-        custom:itemNormalStateColor="#ff3f120e"
-        custom:itemSelectedStateColor="#ff589382"
-        custom:baseCircleColor="#ffb53e2a"/>
+    <com.radomar.customview.circleMenu2.CircleMenuViewGroup
+        android:layout_height="400dp"
+        android:layout_width="400dp"
+        custom:baseCircleColor="#cd7c0c"
+        custom:itemSelectedStateColor="#1ed1bc"
+        custom:strokeWidth="7"
+        android:padding="30dp">
 
+        <com.radomar.customview.circleMenu2.SectorView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            custom:itemIcon="@drawable/abc_ic_menu_moreoverflow_mtrl_alpha" />
+
+        <com.radomar.customview.circleMenu2.SectorView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            custom:itemIcon="@drawable/abc_ic_voice_search_api_mtrl_alpha"/>
+
+        <com.radomar.customview.circleMenu2.SectorView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            custom:itemIcon="@drawable/abc_ic_voice_search_api_mtrl_alpha"/>
+
+        <com.radomar.customview.circleMenu2.SectorView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            custom:itemIcon="@drawable/abc_ic_voice_search_api_mtrl_alpha"/>
+
+        <com.radomar.customview.circleMenu2.SectorView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            custom:itemIcon="@drawable/abc_ic_voice_search_api_mtrl_alpha" />
+
+        <!--<com.radomar.customview.circleMenu.ArcView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--custom:itemIcon="@drawable/abc_ic_voice_search_api_mtrl_alpha"/>-->
+
+    </com.radomar.customview.circleMenu2.CircleMenuViewGroup>
 
 </RelativeLayout>

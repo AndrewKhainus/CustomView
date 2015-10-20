@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="CircleMenu">
-        <attr name="radius" format="dimension"/>
+        <attr name="strokeWidth" format="integer"/>
         <attr name="baseCircleColor" format="color"/>
         <attr name="itemNormalStateColor" format="color"/>
         <attr name="itemSelectedStateColor" format="color"/>
-            <!--<enum name="left" value="0"/>-->
-            <!--<enum name="right" value="1"/>-->
-        <!--</attr>-->
-        <!--<attr name="labelWidth" format="dimension"/>-->
-        <!--<attr name="labelY" format="dimension"/>-->
-        <!--<attr name="pieRotation" format="integer"/>-->
-        <!--<attr name="pointerRadius" format="dimension"/>-->
+        <attr name="itemIcon" format="reference"/>
     </declare-styleable>
 
 
